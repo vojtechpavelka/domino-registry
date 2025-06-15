@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono, Montserrat } from "next/font/google";
+import { Inter, Geist_Mono, Montserrat } from "next/font/google";
 import React, { type ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import "@/app/tokens.css";
 import "@/app/globals.css";
 
-const GeistSans = Geist({
+const InterSans = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
 });
@@ -30,10 +30,10 @@ export default function RootLayout({
     <html
       lang="en"
       className={cn(
-        GeistSans.variable,
+        InterSans.variable,
         GeistMono.variable,
         MontserratSerif.variable,
-        "bg-background text-foreground",
+        "bg-background text-foreground"
       )}
     >
       <body>

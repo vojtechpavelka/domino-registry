@@ -1,12 +1,36 @@
-import { Squirrel } from "lucide-react";
-
 export function RegistryLogo() {
   return (
     <>
-      <div className="flex-shrink-0 rounded-md bg-primary p-1">
-        <Squirrel className="size-5 text-secondary" />
+      <div>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M8.91989 17.4549L10.2486 11.9149L11.5773 6.37479C11.6299 6.15578 11.8498 6.0212 12.0688 6.07386L15.2336 6.83287C15.4526 6.88554 15.5872 7.10538 15.5345 7.32439L12.8771 18.4045C12.8245 18.6235 12.6046 18.7581 12.3856 18.7055L9.22083 17.9464C9.00265 17.8929 8.86806 17.6739 8.91989 17.4549ZM16.337 18.6344H19.5929C19.8178 18.6344 20 18.4522 20 18.2281V6.83371C20 6.60885 19.8178 6.42662 19.5938 6.42662H16.3379C16.113 6.42662 15.9308 6.60885 15.9308 6.83287V18.2273C15.9308 18.4522 16.113 18.6344 16.337 18.6344ZM2.2275 17.0119L5.15406 18.4396C5.35552 18.5383 5.59877 18.4538 5.69741 18.2524L10.6945 8.01236C10.7932 7.8109 10.7088 7.56765 10.5073 7.46901L7.58074 6.04126C7.37929 5.94262 7.13603 6.02705 7.0374 6.2285L2.04193 16.4669C1.94246 16.6692 2.02605 16.9124 2.22834 17.0119H2.2275Z"
+            fill="url(#paint0_radial_6480_3217)"
+          />
+          <defs>
+            <radialGradient
+              id="paint0_radial_6480_3217"
+              cx="0"
+              cy="0"
+              r="1"
+              gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(18.4076 5.51461) rotate(-7.91283) scale(19.9157 19.9289)"
+            >
+              <stop offset="0.2" stopColor="#F024F6" />
+              <stop offset="0.39" stopColor="#C416F8" />
+              <stop offset="0.61" stopColor="#9406F9" />
+              <stop offset="0.72" stopColor="#8200FA" />
+            </radialGradient>
+          </defs>
+        </svg>
       </div>
-      <span className="font-semibold">Registry</span>
+      <span className="font-semibold">Domino Registry</span>
     </>
   );
 }
