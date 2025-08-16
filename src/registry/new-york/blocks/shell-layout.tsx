@@ -2,6 +2,10 @@ import { Inter } from "next/font/google";
 import React, { type ReactNode } from "react";
 
 import { cn } from "@/lib/utils";
+import { BrandHeader } from "@/registry/new-york/components/brand-header";
+import { BrandSidebar } from "@/registry/new-york/components/brand-sidebar";
+import { SidebarProvider } from "@/registry/new-york/ui/sidebar";
+import { Toaster } from "@/registry/new-york/ui/sonner";
 
 import "@/app/globals.css";
 
@@ -20,7 +24,7 @@ const InterSerif = Inter({
   variable: "--font-serif",
 });
 
-export default function RootLayout({
+export default function ShellLayout({
   children,
 }: Readonly<{
   children: ReactNode;
@@ -32,13 +36,18 @@ export default function RootLayout({
         InterSans.variable,
         InterMono.variable,
         InterSerif.variable,
-        "bg-background text-foreground"
+        "bg-background text-foreground",
       )}
     >
       <body>
-        <main className="mt-16 flex w-full justify-center">
-          <div className="container">{children}</div>
-        </main>
+        <SidebarProvider>
+          <BrandHeader />
+          <BrandSidebar />
+          <main className="mt-16 flex w-full justify-center">
+            <div className="container">{children}</div>
+          </main>
+          <Toaster />
+        </SidebarProvider>
       </body>
     </html>
   );

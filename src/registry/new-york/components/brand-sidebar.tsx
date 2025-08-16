@@ -16,7 +16,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type * as React from "react";
 
-import { Button } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
+import { Button } from "@/registry/new-york/ui/button";
 import {
   Sidebar,
   SidebarContent,
@@ -29,8 +30,7 @@ import {
   SidebarMenuItem,
   SidebarSeparator,
   useSidebar,
-} from "@/components/ui/sidebar";
-import { cn } from "@/lib/utils";
+} from "@/registry/new-york/ui/sidebar";
 
 interface NavItem {
   title: string;
