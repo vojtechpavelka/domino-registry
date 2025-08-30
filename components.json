@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "domino",
+  "style": "new-york",
   "rsc": true,
   "tsx": true,
   "tailwind": {
@@ -10,16 +10,12 @@
     "cssVariables": true,
     "prefix": ""
   },
+  "iconLibrary": "lucide",
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils",
     "ui": "@/components/ui",
     "lib": "@/lib",
     "hooks": "@/hooks"
-  },
-  "iconLibrary": "lucide",
-  "registries": {
-    "@domino": "https://domino-registry.vercel.app/r/{name}.json",
-    "@domino-local": "http://localhost:3000/r/{name}.json"
   }
 }

@@ -165,6 +165,522 @@
           "type": "registry:block"
         }
       ]
+    },
+    {
+      "name": "accordion",
+      "type": "registry:component",
+      "title": "Accordion",
+      "description": "Accordion primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/accordion.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:component",
+      "title": "Alert dialog",
+      "description": "Alert dialog primitive",
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "registry/domino/ui/alert-dialog.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "alert",
+      "type": "registry:component",
+      "title": "Alert",
+      "description": "Alert component",
+      "files": [
+        {
+          "path": "registry/domino/ui/alert.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:component",
+      "title": "Aspect ratio",
+      "description": "Aspect ratio primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/aspect-ratio.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "avatar",
+      "type": "registry:component",
+      "title": "Avatar",
+      "description": "Avatar primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/avatar.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "badge",
+      "type": "registry:component",
+      "title": "Badge",
+      "description": "Badge primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/badge.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:component",
+      "title": "Breadcrumb",
+      "description": "Breadcrumb primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/breadcrumb.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "calendar",
+      "type": "registry:component",
+      "title": "Calendar",
+      "description": "Calendar component",
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "registry/domino/ui/calendar.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "carousel",
+      "type": "registry:component",
+      "title": "Carousel",
+      "description": "Carousel component",
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "registry/domino/ui/carousel.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "chart",
+      "type": "registry:component",
+      "title": "Chart",
+      "description": "Chart components",
+      "files": [
+        {
+          "path": "registry/domino/ui/chart.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:component",
+      "title": "Checkbox",
+      "description": "Checkbox primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/checkbox.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:component",
+      "title": "Collapsible",
+      "description": "Collapsible primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/collapsible.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "command",
+      "type": "registry:component",
+      "title": "Command",
+      "description": "Command menu",
+      "files": [
+        {
+          "path": "registry/domino/ui/command.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "context-menu",
+      "type": "registry:component",
+      "title": "Context menu",
+      "description": "Context menu primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/context-menu.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dialog",
+      "type": "registry:component",
+      "title": "Dialog",
+      "description": "Dialog primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/dialog.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "drawer",
+      "type": "registry:component",
+      "title": "Drawer",
+      "description": "Drawer component",
+      "files": [
+        {
+          "path": "registry/domino/ui/drawer.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:component",
+      "title": "Dropdown menu",
+      "description": "Dropdown menu primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/dropdown-menu.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "type": "registry:component",
+      "title": "Form",
+      "description": "Form components and field wrappers",
+      "registryDependencies": [
+        "label"
+      ],
+      "files": [
+        {
+          "path": "registry/domino/ui/form.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "hover-card",
+      "type": "registry:component",
+      "title": "Hover card",
+      "description": "Hover card primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/hover-card.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "input-otp",
+      "type": "registry:component",
+      "title": "Input OTP",
+      "description": "One-time password input",
+      "files": [
+        {
+          "path": "registry/domino/ui/input-otp.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "menubar",
+      "type": "registry:component",
+      "title": "Menubar",
+      "description": "Menubar primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/menubar.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "navigation-menu",
+      "type": "registry:component",
+      "title": "Navigation menu",
+      "description": "Navigation menu primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/navigation-menu.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "pagination",
+      "type": "registry:component",
+      "title": "Pagination",
+      "description": "Pagination component",
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "registry/domino/ui/pagination.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "popover",
+      "type": "registry:component",
+      "title": "Popover",
+      "description": "Popover primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/popover.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "progress",
+      "type": "registry:component",
+      "title": "Progress",
+      "description": "Progress bar primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/progress.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:component",
+      "title": "Radio Group",
+      "description": "Radio group primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/radio-group.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "resizable",
+      "type": "registry:component",
+      "title": "Resizable",
+      "description": "Resizable layout panels",
+      "files": [
+        {
+          "path": "registry/domino/ui/resizable.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:component",
+      "title": "Scroll area",
+      "description": "Scroll area primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/scroll-area.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:component",
+      "title": "Select",
+      "description": "Select primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/select.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "separator",
+      "type": "registry:component",
+      "title": "Separator",
+      "description": "Separator primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/separator.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "sheet",
+      "type": "registry:component",
+      "title": "Sheet",
+      "description": "Sheet component",
+      "files": [
+        {
+          "path": "registry/domino/ui/sheet.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:component",
+      "title": "Sidebar",
+      "description": "Sidebar layout and navigation",
+      "registryDependencies": [
+        "button",
+        "input",
+        "separator",
+        "skeleton"
+      ],
+      "files": [
+        {
+          "path": "registry/domino/ui/sidebar.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:component",
+      "title": "Skeleton",
+      "description": "Skeleton loading component",
+      "files": [
+        {
+          "path": "registry/domino/ui/skeleton.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "slider",
+      "type": "registry:component",
+      "title": "Slider",
+      "description": "Slider primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/slider.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "sonner",
+      "type": "registry:component",
+      "title": "Sonner",
+      "description": "Toaster notifications using sonner",
+      "files": [
+        {
+          "path": "registry/domino/ui/sonner.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:component",
+      "title": "Switch",
+      "description": "Switch primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/switch.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:component",
+      "title": "Table",
+      "description": "Table component",
+      "files": [
+        {
+          "path": "registry/domino/ui/table.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "tabs",
+      "type": "registry:component",
+      "title": "Tabs",
+      "description": "Tabs primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/tabs.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:component",
+      "title": "Toggle Group",
+      "description": "Toggle group primitive",
+      "registryDependencies": [
+        "toggle"
+      ],
+      "files": [
+        {
+          "path": "registry/domino/ui/toggle-group.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "toggle",
+      "type": "registry:component",
+      "title": "Toggle",
+      "description": "Toggle primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/toggle.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:component",
+      "title": "Tooltip",
+      "description": "Tooltip primitive",
+      "files": [
+        {
+          "path": "registry/domino/ui/tooltip.tsx",
+          "type": "registry:component"
+        }
+      ]
     }
   ]
 }
