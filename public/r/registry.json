@@ -12,8 +12,7 @@
         "button",
         "input",
         "label",
-        "card",
-        "theme"
+        "card"
       ],
       "files": [
         {
@@ -261,8 +260,7 @@
       "title": "Complex Component",
       "description": "A complex component showing hooks, libs and components.",
       "registryDependencies": [
-        "card",
-        "theme"
+        "card"
       ],
       "files": [
         {
@@ -362,8 +360,7 @@
         "input",
         "label",
         "textarea",
-        "card",
-        "theme"
+        "card"
       ],
       "files": [
         {
@@ -401,8 +398,7 @@
       "title": "Hello World",
       "description": "A simple hello world component",
       "registryDependencies": [
-        "button",
-        "theme"
+        "button"
       ],
       "files": [
         {
