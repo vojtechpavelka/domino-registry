@@ -147,6 +147,24 @@
           "type": "registry:component"
         }
       ]
+    },
+    {
+      "name": "login-form",
+      "type": "registry:block",
+      "title": "Login Form",
+      "description": "A login form",
+      "registryDependencies": [
+        "button",
+        "input",
+        "label",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/domino/blocks/login-form/login-form.tsx",
+          "type": "registry:block"
+        }
+      ]
     }
   ]
 }
