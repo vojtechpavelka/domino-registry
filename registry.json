@@ -96,12 +96,12 @@
       },
       "files": [
         {
-          "path": "app/globals.css",
+          "path": "registry/domino/themes/globals.css",
           "type": "registry:style",
           "target": "app/globals.css"
         },
         {
-          "path": "postcss.config.mjs",
+          "path": "registry/domino/themes/postcss.config.mjs",
           "type": "registry:file",
           "target": "postcss.config.mjs"
         }
