@@ -820,9 +820,6 @@
       "type": "registry:theme",
       "title": "Domino theme",
       "description": "Domino theme",
-      "theme": {
-        "font-sans": "Inter, sans-serif"
-      },
       "cssVars": {
         "light": {
           "radius": "0.625rem",
