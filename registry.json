@@ -69,7 +69,7 @@
       "title": "Hello World",
       "description": "A simple hello world component",
       "registryDependencies": [
-        "@domino/button"
+        "button"
       ],
       "files": [
         {
@@ -87,11 +87,11 @@
         "zod"
       ],
       "registryDependencies": [
-        "@domino/button",
-        "@domino/input",
-        "@domino/label",
-        "@domino/textarea",
-        "@domino/card"
+        "button",
+        "input",
+        "label",
+        "textarea",
+        "card"
       ],
       "files": [
         {
@@ -106,7 +106,7 @@
       "title": "Complex Component",
       "description": "A complex component showing hooks, libs and components.",
       "registryDependencies": [
-        "@domino/card"
+        "card"
       ],
       "files": [
         {

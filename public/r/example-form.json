@@ -8,11 +8,11 @@
     "zod"
   ],
   "registryDependencies": [
-    "@domino/button",
-    "@domino/input",
-    "@domino/label",
-    "@domino/textarea",
-    "@domino/card"
+    "button",
+    "input",
+    "label",
+    "textarea",
+    "card"
   ],
   "files": [
     {
