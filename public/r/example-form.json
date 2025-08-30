@@ -12,7 +12,8 @@
     "input",
     "label",
     "textarea",
-    "card"
+    "card",
+    "theme"
   ],
   "files": [
     {
