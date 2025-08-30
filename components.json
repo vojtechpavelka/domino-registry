@@ -17,5 +17,9 @@
     "lib": "@/lib",
     "hooks": "@/hooks"
   },
-  "iconLibrary": "lucide"
+  "iconLibrary": "lucide",
+  "registries": {
+    "@domino": "https://domino-registry.vercel.app/r/{name}.json",
+    "@domino-local": "http://localhost:3000/r/{name}.json"
+  }
 }
