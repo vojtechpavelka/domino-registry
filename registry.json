@@ -18,8 +18,7 @@
       "files": [
         {
           "path": "registry/domino/blocks/login-form/login-form.tsx",
-          "type": "registry:block",
-          "targer": "app/login/page.tsx"
+          "type": "registry:block"
         }
       ]
     },
@@ -657,6 +656,17 @@
         {
           "path": "registry/domino/ui/sidebar.tsx",
           "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "use-mobile",
+      "type": "registry:hook",
+      "description": "Hook to detect mobile viewport.",
+      "files": [
+        {
+          "path": "registry/domino/hooks/use-mobile.ts",
+          "type": "registry:hook"
         }
       ]
     },
