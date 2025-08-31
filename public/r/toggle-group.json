@@ -8,7 +8,7 @@
     "@radix-ui/react-toggle-group"
   ],
   "registryDependencies": [
-    "toggle"
+    "@domino/toggle"
   ],
   "files": [
     {

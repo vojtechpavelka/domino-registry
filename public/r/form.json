@@ -12,8 +12,8 @@
     "react-hook-form"
   ],
   "registryDependencies": [
-    "button",
-    "label"
+    "@domino/button",
+    "@domino/label"
   ],
   "files": [
     {

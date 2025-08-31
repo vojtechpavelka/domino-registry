@@ -5,7 +5,7 @@
   "title": "Complex Component",
   "description": "A complex component showing hooks, libs and components.",
   "registryDependencies": [
-    "card"
+    "@domino/card"
   ],
   "files": [
     {

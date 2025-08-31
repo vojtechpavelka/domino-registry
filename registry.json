@@ -4,6 +4,149 @@
   "homepage": "https://domino-registry.vercel.app",
   "items": [
     {
+      "name": "domino-style",
+      "type": "registry:style",
+      "title": "Domino style",
+      "description": "Domino style",
+      "dependencies": [
+        "radix-ui"
+      ],
+      "registryDependencies": [
+        "@domino/accordion",
+        "@domino/alert-dialog",
+        "@domino/alert",
+        "@domino/aspect-ratio",
+        "@domino/avatar",
+        "@domino/badge",
+        "@domino/breadcrumb",
+        "@domino/button",
+        "@domino/calendar",
+        "@domino/card",
+        "@domino/carousel",
+        "@domino/chart",
+        "@domino/checkbox",
+        "@domino/collapsible",
+        "@domino/command",
+        "@domino/context-menu",
+        "@domino/dialog",
+        "@domino/drawer",
+        "@domino/dropdown-menu",
+        "@domino/form",
+        "@domino/hover-card",
+        "@domino/input-otp",
+        "@domino/input",
+        "@domino/label",
+        "@domino/menubar",
+        "@domino/navigation-menu",
+        "@domino/pagination",
+        "@domino/popover",
+        "@domino/progress",
+        "@domino/radio-group",
+        "@domino/resizable",
+        "@domino/scroll-area",
+        "@domino/select",
+        "@domino/separator",
+        "@domino/sheet",
+        "@domino/slider",
+        "@domino/sidebar",
+        "@domino/skeleton",
+        "@domino/sonner",
+        "@domino/switch",
+        "@domino/table",
+        "@domino/tabs",
+        "@domino/textarea",
+        "@domino/toggle-group",
+        "@domino/toggle",
+        "@domino/tooltip"
+      ],
+      "cssVars": {
+        "light": {
+          "radius": "0.625rem",
+          "card": "oklch(1 0 0)",
+          "card-foreground": "oklch(0.145 0 0)",
+          "popover": "oklch(1 0 0)",
+          "popover-foreground": "oklch(0.145 0 0)",
+          "primary": "oklch(0.4744 0.256 297.4098)",
+          "primary-foreground": "oklch(1 0 0)",
+          "secondary": "oklch(0.97 0 0)",
+          "secondary-foreground": "oklch(0.205 0 0)",
+          "muted": "oklch(0.97 0 0)",
+          "muted-foreground": "oklch(0.556 0 0)",
+          "accent": "oklch(0.97 0 0)",
+          "accent-foreground": "oklch(0.205 0 0)",
+          "destructive": "oklch(0.577 0.245 27.325)",
+          "destructive-foreground": "oklch(1 0 0)",
+          "border": "oklch(0.922 0 0)",
+          "input": "oklch(0.922 0 0)",
+          "ring": "oklch(0.708 0 0)",
+          "chart-1": "oklch(0.646 0.222 41.116)",
+          "chart-2": "oklch(0.6 0.118 184.704)",
+          "chart-3": "oklch(0.398 0.07 227.392)",
+          "chart-4": "oklch(0.828 0.189 84.429)",
+          "chart-5": "oklch(0.769 0.188 70.08)",
+          "sidebar": "oklch(0.985 0 0)",
+          "sidebar-foreground": "oklch(0.145 0 0)",
+          "sidebar-primary": "oklch(0.205 0 0)",
+          "sidebar-primary-foreground": "oklch(0.985 0 0)",
+          "sidebar-accent": "oklch(0.97 0 0)",
+          "sidebar-accent-foreground": "oklch(0.205 0 0)",
+          "sidebar-border": "oklch(0.922 0 0)",
+          "sidebar-ring": "oklch(0.708 0 0)",
+          "surface": "var(--background)",
+          "surface-foreground": "var(--foreground)",
+          "code": "var(--surface)",
+          "code-foreground": "var(--surface-foreground)",
+          "code-highlight": "oklch(0.96 0 0)",
+          "code-number": "oklch(0.56 0 0)",
+          "selection": "oklch(0.145 0 0)",
+          "selection-foreground": "oklch(1 0 0)",
+          "background": "oklch(1 0 0)",
+          "foreground": "oklch(0.145 0 0)"
+        },
+        "dark": {
+          "background": "oklch(0.145 0 0)",
+          "foreground": "oklch(0.985 0 0)",
+          "card": "oklch(0.205 0 0)",
+          "card-foreground": "oklch(0.985 0 0)",
+          "popover": "oklch(0.205 0 0)",
+          "popover-foreground": "oklch(0.985 0 0)",
+          "primary": "oklch(0.922 0 0)",
+          "primary-foreground": "oklch(0.205 0 0)",
+          "secondary": "oklch(0.269 0 0)",
+          "secondary-foreground": "oklch(0.985 0 0)",
+          "muted": "oklch(0.269 0 0)",
+          "muted-foreground": "oklch(0.708 0 0)",
+          "accent": "oklch(0.269 0 0)",
+          "accent-foreground": "oklch(0.985 0 0)",
+          "destructive": "oklch(0.704 0.191 22.216)",
+          "border": "oklch(1 0 0 / 10%)",
+          "input": "oklch(1 0 0 / 15%)",
+          "ring": "oklch(0.556 0 0)",
+          "chart-1": "oklch(0.488 0.243 264.376)",
+          "chart-2": "oklch(0.696 0.17 162.48)",
+          "chart-3": "oklch(0.769 0.188 70.08)",
+          "chart-4": "oklch(0.627 0.265 303.9)",
+          "chart-5": "oklch(0.645 0.246 16.439)",
+          "sidebar": "oklch(0.205 0 0)",
+          "sidebar-foreground": "oklch(0.985 0 0)",
+          "sidebar-primary": "oklch(0.488 0.243 264.376)",
+          "sidebar-primary-foreground": "oklch(0.985 0 0)",
+          "sidebar-accent": "oklch(0.269 0 0)",
+          "sidebar-accent-foreground": "oklch(0.985 0 0)",
+          "sidebar-border": "oklch(1 0 0 / 10%)",
+          "sidebar-ring": "oklch(0.556 0 0)",
+          "surface": "var(--background)",
+          "surface-foreground": "var(--foreground)",
+          "code": "var(--surface)",
+          "code-foreground": "var(--surface-foreground)",
+          "code-highlight": "oklch(0.27 0 0)",
+          "code-number": "oklch(0.72 0 0)",
+          "selection": "oklch(0.922 0 0)",
+          "selection-foreground": "oklch(0.205 0 0)"
+        }
+      }
+    },
+    {
       "name": "theme",
       "type": "registry:theme",
       "title": "Domino theme",
@@ -113,11 +256,11 @@
       "title": "Login Form",
       "description": "A login form",
       "registryDependencies": [
-        "button",
-        "input",
-        "label",
-        "card",
-        "https://domino-registry.vercel.app/r/theme.json"
+        "@domino/button",
+        "@domino/input",
+        "@domino/label",
+        "@domino/card",
+        "@domino/theme"
       ],
       "files": [
         {
@@ -131,7 +274,9 @@
       "type": "registry:ui",
       "title": "Accordion",
       "description": "Accordion primitive",
-      "dependencies": ["@radix-ui/react-accordion"],
+      "dependencies": [
+        "@radix-ui/react-accordion"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/accordion.tsx",
@@ -156,8 +301,12 @@
       "type": "registry:ui",
       "title": "Alert dialog",
       "description": "Alert dialog primitive",
-      "dependencies": ["@radix-ui/react-alert-dialog"],
-      "registryDependencies": ["button"],
+      "dependencies": [
+        "@radix-ui/react-alert-dialog"
+      ],
+      "registryDependencies": [
+        "@domino/button"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/alert-dialog.tsx",
@@ -170,7 +319,9 @@
       "type": "registry:ui",
       "title": "Aspect ratio",
       "description": "Aspect ratio primitive",
-      "dependencies": ["@radix-ui/react-aspect-ratio"],
+      "dependencies": [
+        "@radix-ui/react-aspect-ratio"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/aspect-ratio.tsx",
@@ -183,7 +334,9 @@
       "type": "registry:ui",
       "title": "Avatar",
       "description": "Avatar primitive",
-      "dependencies": ["@radix-ui/react-avatar"],
+      "dependencies": [
+        "@radix-ui/react-avatar"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/avatar.tsx",
@@ -196,7 +349,9 @@
       "type": "registry:ui",
       "title": "Badge",
       "description": "Badge primitive",
-      "dependencies": ["@radix-ui/react-slot"],
+      "dependencies": [
+        "@radix-ui/react-slot"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/badge.tsx",
@@ -209,7 +364,9 @@
       "type": "registry:ui",
       "title": "Breadcrumb",
       "description": "Breadcrumb primitive",
-      "dependencies": ["@radix-ui/react-slot"],
+      "dependencies": [
+        "@radix-ui/react-slot"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/breadcrumb.tsx",
@@ -222,7 +379,9 @@
       "type": "registry:ui",
       "title": "Button",
       "description": "Button primitive",
-      "dependencies": ["@radix-ui/react-slot"],
+      "dependencies": [
+        "@radix-ui/react-slot"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/button.tsx",
@@ -235,8 +394,13 @@
       "type": "registry:ui",
       "title": "Calendar",
       "description": "Calendar component",
-      "dependencies": ["react-day-picker@latest", "date-fns"],
-      "registryDependencies": ["button"],
+      "dependencies": [
+        "react-day-picker@latest",
+        "date-fns"
+      ],
+      "registryDependencies": [
+        "@domino/button"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/calendar.tsx",
@@ -261,8 +425,12 @@
       "type": "registry:ui",
       "title": "Carousel",
       "description": "Carousel component",
-      "dependencies": ["embla-carousel-react"],
-      "registryDependencies": ["button"],
+      "dependencies": [
+        "embla-carousel-react"
+      ],
+      "registryDependencies": [
+        "@domino/button"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/carousel.tsx",
@@ -275,7 +443,10 @@
       "type": "registry:ui",
       "title": "Chart",
       "description": "Chart components",
-      "dependencies": ["recharts@2.15.4", "lucide-react"],
+      "dependencies": [
+        "recharts@2.15.4",
+        "lucide-react"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/chart.tsx",
@@ -288,7 +459,9 @@
       "type": "registry:ui",
       "title": "Checkbox",
       "description": "Checkbox primitive",
-      "dependencies": ["@radix-ui/react-checkbox"],
+      "dependencies": [
+        "@radix-ui/react-checkbox"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/checkbox.tsx",
@@ -301,7 +474,9 @@
       "type": "registry:ui",
       "title": "Collapsible",
       "description": "Collapsible primitive",
-      "dependencies": ["@radix-ui/react-collapsible"],
+      "dependencies": [
+        "@radix-ui/react-collapsible"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/collapsible.tsx",
@@ -314,8 +489,12 @@
       "type": "registry:ui",
       "title": "Command",
       "description": "Command menu",
-      "dependencies": ["cmdk"],
-      "registryDependencies": ["dialog"],
+      "dependencies": [
+        "@domino/cmdk"
+      ],
+      "registryDependencies": [
+        "@domino/dialog"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/command.tsx",
@@ -328,7 +507,9 @@
       "type": "registry:component",
       "title": "Complex Component",
       "description": "A complex component showing hooks, libs and components.",
-      "registryDependencies": ["card"],
+      "registryDependencies": [
+        "@domino/card"
+      ],
       "files": [
         {
           "path": "registry/domino/blocks/complex-component/page.tsx",
@@ -358,7 +539,9 @@
       "type": "registry:ui",
       "title": "Context menu",
       "description": "Context menu primitive",
-      "dependencies": ["@radix-ui/react-context-menu"],
+      "dependencies": [
+        "@radix-ui/react-context-menu"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/context-menu.tsx",
@@ -371,7 +554,9 @@
       "type": "registry:ui",
       "title": "Dialog",
       "description": "Dialog primitive",
-      "dependencies": ["@radix-ui/react-dialog"],
+      "dependencies": [
+        "@radix-ui/react-dialog"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/dialog.tsx",
@@ -384,7 +569,10 @@
       "type": "registry:ui",
       "title": "Drawer",
       "description": "Drawer component",
-      "dependencies": ["vaul", "@radix-ui/react-dialog"],
+      "dependencies": [
+        "vaul",
+        "@radix-ui/react-dialog"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/drawer.tsx",
@@ -397,7 +585,9 @@
       "type": "registry:ui",
       "title": "Dropdown menu",
       "description": "Dropdown menu primitive",
-      "dependencies": ["@radix-ui/react-dropdown-menu"],
+      "dependencies": [
+        "@radix-ui/react-dropdown-menu"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/dropdown-menu.tsx",
@@ -410,14 +600,16 @@
       "type": "registry:component",
       "title": "Example Form",
       "description": "A contact form with Zod validation.",
-      "dependencies": ["zod"],
+      "dependencies": [
+        "zod"
+      ],
       "registryDependencies": [
-        "button",
-        "input",
-        "label",
-        "textarea",
-        "card",
-        "https://domino-registry.vercel.app/r/theme.json"
+        "@domino/button",
+        "@domino/input",
+        "@domino/label",
+        "@domino/textarea",
+        "@domino/card",
+        "@domino/theme"
       ],
       "files": [
         {
@@ -438,7 +630,10 @@
         "zod",
         "react-hook-form"
       ],
-      "registryDependencies": ["button", "label"],
+      "registryDependencies": [
+        "@domino/button",
+        "@domino/label"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/form.tsx",
@@ -452,8 +647,8 @@
       "title": "Hello World",
       "description": "A simple hello world component",
       "registryDependencies": [
-        "button",
-        "https://domino-registry.vercel.app/r/theme.json"
+        "@domino/button",
+        "@domino/theme"
       ],
       "files": [
         {
@@ -467,7 +662,9 @@
       "type": "registry:ui",
       "title": "Hover card",
       "description": "Hover card primitive",
-      "dependencies": ["@radix-ui/react-hover-card"],
+      "dependencies": [
+        "@radix-ui/react-hover-card"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/hover-card.tsx",
@@ -492,7 +689,9 @@
       "type": "registry:ui",
       "title": "Input OTP",
       "description": "One-time password input",
-      "dependencies": ["input-otp"],
+      "dependencies": [
+        "input-otp"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/input-otp.tsx",
@@ -505,7 +704,9 @@
       "type": "registry:ui",
       "title": "Label",
       "description": "Label primitive",
-      "dependencies": ["@radix-ui/react-label"],
+      "dependencies": [
+        "@radix-ui/react-label"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/label.tsx",
@@ -518,7 +719,9 @@
       "type": "registry:ui",
       "title": "Menubar",
       "description": "Menubar primitive",
-      "dependencies": ["@radix-ui/react-menubar"],
+      "dependencies": [
+        "@radix-ui/react-menubar"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/menubar.tsx",
@@ -531,7 +734,9 @@
       "type": "registry:ui",
       "title": "Navigation menu",
       "description": "Navigation menu primitive",
-      "dependencies": ["@radix-ui/react-navigation-menu"],
+      "dependencies": [
+        "@radix-ui/react-navigation-menu"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/navigation-menu.tsx",
@@ -544,7 +749,9 @@
       "type": "registry:ui",
       "title": "Pagination",
       "description": "Pagination component",
-      "registryDependencies": ["button"],
+      "registryDependencies": [
+        "@domino/button"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/pagination.tsx",
@@ -557,7 +764,9 @@
       "type": "registry:ui",
       "title": "Popover",
       "description": "Popover primitive",
-      "dependencies": ["@radix-ui/react-popover"],
+      "dependencies": [
+        "@radix-ui/react-popover"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/popover.tsx",
@@ -570,7 +779,9 @@
       "type": "registry:ui",
       "title": "Progress",
       "description": "Progress bar primitive",
-      "dependencies": ["@radix-ui/react-progress"],
+      "dependencies": [
+        "@radix-ui/react-progress"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/progress.tsx",
@@ -583,7 +794,9 @@
       "type": "registry:ui",
       "title": "Radio Group",
       "description": "Radio group primitive",
-      "dependencies": ["@radix-ui/react-radio-group"],
+      "dependencies": [
+        "@radix-ui/react-radio-group"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/radio-group.tsx",
@@ -596,7 +809,9 @@
       "type": "registry:ui",
       "title": "Resizable",
       "description": "Resizable layout panels",
-      "dependencies": ["react-resizable-panels"],
+      "dependencies": [
+        "react-resizable-panels"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/resizable.tsx",
@@ -609,7 +824,9 @@
       "type": "registry:ui",
       "title": "Scroll area",
       "description": "Scroll area primitive",
-      "dependencies": ["@radix-ui/react-scroll-area"],
+      "dependencies": [
+        "@radix-ui/react-scroll-area"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/scroll-area.tsx",
@@ -622,7 +839,9 @@
       "type": "registry:ui",
       "title": "Select",
       "description": "Select primitive",
-      "dependencies": ["@radix-ui/react-select"],
+      "dependencies": [
+        "@radix-ui/react-select"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/select.tsx",
@@ -635,7 +854,9 @@
       "type": "registry:ui",
       "title": "Separator",
       "description": "Separator primitive",
-      "dependencies": ["@radix-ui/react-separator"],
+      "dependencies": [
+        "@radix-ui/react-separator"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/separator.tsx",
@@ -648,7 +869,9 @@
       "type": "registry:ui",
       "title": "Sheet",
       "description": "Sheet component",
-      "dependencies": ["@radix-ui/react-dialog"],
+      "dependencies": [
+        "@radix-ui/react-dialog"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/sheet.tsx",
@@ -667,13 +890,13 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "button",
-        "separator",
-        "sheet",
-        "tooltip",
-        "input",
-        "use-mobile",
-        "skeleton"
+        "@domino/button",
+        "@domino/separator",
+        "@domino/sheet",
+        "@domino/tooltip",
+        "@domino/input",
+        "@domino/use-mobile",
+        "@domino/skeleton"
       ],
       "files": [
         {
@@ -710,7 +933,9 @@
       "type": "registry:ui",
       "title": "Slider",
       "description": "Slider primitive",
-      "dependencies": ["@radix-ui/react-slider"],
+      "dependencies": [
+        "@radix-ui/react-slider"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/slider.tsx",
@@ -723,7 +948,10 @@
       "type": "registry:ui",
       "title": "Sonner",
       "description": "Toaster notifications using sonner",
-      "dependencies": ["sonner", "next-themes"],
+      "dependencies": [
+        "sonner",
+        "next-themes"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/sonner.tsx",
@@ -736,7 +964,9 @@
       "type": "registry:ui",
       "title": "Switch",
       "description": "Switch primitive",
-      "dependencies": ["@radix-ui/react-switch"],
+      "dependencies": [
+        "@radix-ui/react-switch"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/switch.tsx",
@@ -761,7 +991,9 @@
       "type": "registry:ui",
       "title": "Tabs",
       "description": "Tabs primitive",
-      "dependencies": ["@radix-ui/react-tabs"],
+      "dependencies": [
+        "@radix-ui/react-tabs"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/tabs.tsx",
@@ -786,7 +1018,9 @@
       "type": "registry:ui",
       "title": "Toggle",
       "description": "Toggle primitive",
-      "dependencies": ["@radix-ui/react-toggle"],
+      "dependencies": [
+        "@radix-ui/react-toggle"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/toggle.tsx",
@@ -799,8 +1033,12 @@
       "type": "registry:ui",
       "title": "Toggle Group",
       "description": "Toggle group primitive",
-      "dependencies": ["@radix-ui/react-toggle-group"],
-      "registryDependencies": ["toggle"],
+      "dependencies": [
+        "@radix-ui/react-toggle-group"
+      ],
+      "registryDependencies": [
+        "@domino/toggle"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/toggle-group.tsx",
@@ -813,7 +1051,9 @@
       "type": "registry:ui",
       "title": "Tooltip",
       "description": "Tooltip primitive",
-      "dependencies": ["@radix-ui/react-tooltip"],
+      "dependencies": [
+        "@radix-ui/react-tooltip"
+      ],
       "files": [
         {
           "path": "registry/domino/ui/tooltip.tsx",

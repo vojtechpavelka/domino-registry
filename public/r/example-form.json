@@ -8,12 +8,12 @@
     "zod"
   ],
   "registryDependencies": [
-    "button",
-    "input",
-    "label",
-    "textarea",
-    "card",
-    "https://domino-registry.vercel.app/r/theme.json"
+    "@domino/button",
+    "@domino/input",
+    "@domino/label",
+    "@domino/textarea",
+    "@domino/card",
+    "@domino/theme"
   ],
   "files": [
     {

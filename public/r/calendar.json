@@ -9,7 +9,7 @@
     "date-fns"
   ],
   "registryDependencies": [
-    "button"
+    "@domino/button"
   ],
   "files": [
     {

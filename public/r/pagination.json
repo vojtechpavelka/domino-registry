@@ -5,7 +5,7 @@
   "title": "Pagination",
   "description": "Pagination component",
   "registryDependencies": [
-    "button"
+    "@domino/button"
   ],
   "files": [
     {

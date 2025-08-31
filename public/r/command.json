@@ -5,10 +5,10 @@
   "title": "Command",
   "description": "Command menu",
   "dependencies": [
-    "cmdk"
+    "@domino/cmdk"
   ],
   "registryDependencies": [
-    "dialog"
+    "@domino/dialog"
   ],
   "files": [
     {

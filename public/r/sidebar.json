@@ -10,13 +10,13 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "button",
-    "separator",
-    "sheet",
-    "tooltip",
-    "input",
-    "use-mobile",
-    "skeleton"
+    "@domino/button",
+    "@domino/separator",
+    "@domino/sheet",
+    "@domino/tooltip",
+    "@domino/input",
+    "@domino/use-mobile",
+    "@domino/skeleton"
   ],
   "files": [
     {
