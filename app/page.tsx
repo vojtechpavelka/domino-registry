@@ -1,83 +1,49 @@
 import * as React from "react";
-import { OpenInV0Button } from "@/components/open-in-v0-button";
+import { registryItemSchema } from "shadcn/schema";
+import registry from "@/registry.json";
 import { AddCommandButton } from "@/components/add-command-button";
-import { HelloWorld } from "@/registry/domino/blocks/hello-world/hello-world";
-import { ExampleForm } from "@/registry/domino/blocks/example-form/example-form";
-import PokemonPage from "@/registry/domino/blocks/complex-component/page";
-import { LoginForm } from "@/registry/domino/blocks/login-form/login-form";
-// This page displays items from the custom registry.
-// You are free to implement this with your own design as needed.
+import { OpenInV0Button } from "@/components/open-in-v0-button";
+import { blocks } from "@/components/blocks";
+
+const getRegistryItemFromJson = React.cache((name: string) => {
+  const registryItem = registry.items.find((item) => item.name === name);
+
+  const result = registryItemSchema.safeParse(registryItem);
+  if (!result.success) {
+    return null;
+  }
+  return result.data;
+});
 
 export default function Home() {
   return (
-    <div className="max-w-3xl mx-auto flex flex-col min-h-svh px-4 py-8 gap-8">
-      <header className="flex flex-col gap-1">
-        <h1 className="text-3xl font-bold tracking-tight">Custom Registry</h1>
-        <p className="text-muted-foreground">
-          A custom registry for distributing code using shadcn.
-        </p>
-      </header>
-      <main className="flex flex-col flex-1 gap-8">
-        <div className="flex flex-col gap-4 border rounded-lg p-4 min-h-[450px] relative">
-          <div className="flex items-center justify-between">
-            <h2 className="text-sm text-muted-foreground sm:pl-3">
-              A simple hello world component
-            </h2>
-            <div className="flex gap-2">
-              <AddCommandButton registryItem="hello-world" />
-              <OpenInV0Button name="hello-world" className="w-fit" />
-            </div>
-          </div>
-          <div className="flex items-center justify-center min-h-[400px] relative">
-            <HelloWorld />
-          </div>
-        </div>
+    <main className="max-w-7xl mx-auto flex flex-col gap-12">
+      {blocks.map((block) => {
+        const registryItem = getRegistryItemFromJson(block.name);
+        if (!registryItem) {
+          return "No registry item found";
+        }
 
-        <div className="flex flex-col gap-4 border rounded-lg p-4 min-h-[450px] relative">
-          <div className="flex items-center justify-between">
-            <h2 className="text-sm text-muted-foreground sm:pl-3">
-              A contact form with Zod validation.
-            </h2>
-            <div className="flex gap-2">
-              <AddCommandButton registryItem="example-form" />
-              <OpenInV0Button name="example-form" className="w-fit" />
+        return (
+          <div key={registryItem.name} className="flex flex-col gap-4">
+            <div className="flex flex-row items-center">
+              <div className="flex flex-col gap-1">
+                <h2 className="text-xl font-semibold">{registryItem.title}</h2>
+                <p className="text-sm font-normal text-muted-foreground">
+                  {registryItem.description}
+                </p>
+              </div>
+              <div className="flex items-center gap-2 ml-auto">
+                <AddCommandButton registryItem={registryItem.name} />
+                <OpenInV0Button name={registryItem.name} className="w-fit" />
+              </div>
+            </div>
+            <div className="flex items-center border rounded-xl justify-center min-h-[400px] p-10 bg-muted/30">
+              <block.component />
             </div>
           </div>
-          <div className="flex items-center justify-center min-h-[500px] relative">
-            <ExampleForm />
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-4 border rounded-lg p-4 min-h-[450px] relative">
-          <div className="flex items-center justify-between">
-            <h2 className="text-sm text-muted-foreground sm:pl-3">
-              A complex component showing hooks, libs and components.
-            </h2>
-            <div className="flex gap-2">
-              <AddCommandButton registryItem="complex-component" />
-              <OpenInV0Button name="complex-component" className="w-fit" />
-            </div>
-          </div>
-          <div className="flex items-center justify-center min-h-[400px] relative">
-            <PokemonPage />
-          </div>
-        </div>
-
-        <div className="flex flex-col gap-4 border rounded-lg p-4 min-h-[450px] relative">
-          <div className="flex items-center justify-between">
-            <h2 className="text-sm text-muted-foreground sm:pl-3">
-              A login form.
-            </h2>
-            <div className="flex gap-2">
-              <AddCommandButton registryItem="login-form" />
-              <OpenInV0Button name="login-form" className="w-fit" />
-            </div>
-          </div>
-          <div className="flex items-center justify-center min-h-[400px] relative">
-            <LoginForm />
-          </div>
-        </div>
-      </main>
-    </div>
+        );
+      })}
+    </main>
   );
 }

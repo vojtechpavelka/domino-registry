@@ -1,7 +1,7 @@
 "use client";
 
 import { useCopyToClipboard } from "@/hooks/use-copy-to-clipboard";
-import { Button } from "@/registry/domino/ui/button";
+import { Button } from "@/components/ui/button";
 import { CheckIcon } from "lucide-react";
 
 export function AddCommandButton({ registryItem }: { registryItem: string }) {
@@ -10,8 +10,6 @@ export function AddCommandButton({ registryItem }: { registryItem: string }) {
   return (
     <Button
       variant="outline"
-      size="sm"
-      className="rounded-sm !pl-2"
       onClick={() => {
         copyToClipboard(`npx shadcn@latest add @domino/${registryItem}`);
       }}
