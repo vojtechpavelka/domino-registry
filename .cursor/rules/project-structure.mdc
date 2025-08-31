@@ -1,0 +1,42 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+# Project Structure Guide
+
+This is a Next.js project with a component registry system. The main structure is:
+
+## Core Application
+
+- [app/layout.tsx](mdc:app/layout.tsx) - Root layout component
+- [app/page.tsx](mdc:app/page.tsx) - Main page component
+- [app/globals.css](mdc:app/globals.css) - Global styles
+- [app/favicon.ico](mdc:app/favicon.ico) - Site favicon
+
+## Components
+
+- [components/](mdc:components/) - Shared components
+- [components/open-in-v0-button.tsx](mdc:components/open-in-v0-button.tsx) - V0 integration button
+
+## Registry System
+
+- [registry/](mdc:registry/) - Component registry containing all available components
+- [registry.json](mdc:registry.json) - Registry configuration
+- [registry/domino/](mdc:registry/domino/) - Main registry namespace
+- [registry/domino/ui/](mdc:registry/domino/ui/) - Base UI components (shadcn/ui)
+- [registry/domino/blocks/](mdc:registry/domino/blocks/) - Complex component blocks
+- [registry/domino/hooks/](mdc:registry/domino/hooks/) - Shared hooks
+
+## Configuration
+
+- [package.json](mdc:package.json) - Dependencies and scripts
+- [tsconfig.json](mdc:tsconfig.json) - TypeScript configuration
+- [next.config.ts](mdc:next.config.ts) - Next.js configuration
+- [components.json](mdc:components.json) - shadcn/ui configuration
+
+## Public Assets
+
+- [public/](mdc:public/) - Static assets and component registry JSON files
+- [public/r/](mdc:public/r/) - Component registry JSON files for each component

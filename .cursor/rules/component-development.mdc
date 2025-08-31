@@ -1,0 +1,38 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+# Component Development Guidelines
+
+## Component Structure
+
+- All components should be placed in the appropriate directory under [registry/domino/](mdc:registry/domino/)
+- Base UI components go in [registry/domino/ui/](mdc:registry/domino/ui/)
+- Complex component blocks go in [registry/domino/blocks/](mdc:registry/domino/blocks/)
+- Shared hooks go in [registry/domino/hooks/](mdc:registry/domino/hooks/)
+
+## Component Registry
+
+- Each component must have a corresponding JSON file in [registry.json](mdc:registry.json)
+
+## shadcn/ui Integration
+
+- Use the existing UI components from [registry/domino/ui/](mdc:registry/domino/ui/)
+- Follow the shadcn/ui design patterns and component API
+- Check [components.json](mdc:components.json) for configuration details
+
+## TypeScript Best Practices
+
+- Use proper TypeScript types for all props and state
+- Export component types for reuse
+- Use React.FC or proper function component typing
+- Implement proper prop interfaces
+
+## File Organization
+
+- Keep components focused and single-purpose
+- Use descriptive file names that match component names
+- Group related components in subdirectories when needed
+- Export components as default exports for registry compatibility

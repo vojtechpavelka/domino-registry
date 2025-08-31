@@ -1,0 +1,62 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+# Component Registry System
+
+## Overview
+
+This project uses a sophisticated component registry system that allows dynamic component discovery and rendering.
+
+## Registry Structure
+
+- [registry.json](mdc:registry.json) - Main registry configuration file
+- [registry/domino/](mdc:registry/domino/) - Primary namespace for components
+- [public/r/](mdc:public/r/) - JSON metadata files for each component
+
+## Component Categories
+
+### Base UI Components
+
+Located in [registry/domino/ui/](mdc:registry/domino/ui/), these are foundational shadcn/ui components:
+
+- Button, Input, Card, Dialog, etc.
+- Each has a corresponding JSON file in [public/r/](mdc:public/r/)
+
+### Complex Component Blocks
+
+Located in [registry/domino/blocks/](mdc:registry/domino/blocks/), these are higher-level components:
+
+- [registry/domino/blocks/hello-world/](mdc:registry/domino/blocks/hello-world/) - Simple example
+- [registry/domino/blocks/login-form/](mdc:registry/domino/blocks/login-form/) - Form component
+- [registry/domino/blocks/complex-component/](mdc:registry/domino/blocks/complex-component/) - Advanced component with sub-components
+
+### Shared Hooks
+
+Located in [registry/domino/hooks/](mdc:registry/domino/hooks/):
+
+- [registry/domino/hooks/use-mobile.ts](mdc:registry/domino/hooks/use-mobile.ts) - Mobile detection hook
+
+## Registry JSON Files
+
+Each component in [public/r/](mdc:public/r/) has a JSON file that defines:
+
+- Component metadata
+- Props and configuration
+- Usage examples
+- Dependencies
+
+## Adding New Components
+
+1. Create the component in the appropriate directory
+2. Add the component to [registry.json](mdc:registry.json)
+3. Run `npx shadcn build` that creates files in the [public/r/](mdc:public/r/) directory
+4. Ensure the component is properly exported
+
+## Usage Patterns
+
+- Components are discovered and rendered dynamically
+- The registry system provides metadata for component selection
+- JSON files serve as documentation and configuration
