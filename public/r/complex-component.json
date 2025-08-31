@@ -2,7 +2,7 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "complex-component",
   "type": "registry:component",
-  "title": "Complex Component",
+  "title": "Complex component",
   "description": "A complex component showing hooks, libs and components.",
   "registryDependencies": [
     "@domino/card"

@@ -2,7 +2,7 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-form",
   "type": "registry:block",
-  "title": "Login Form",
+  "title": "Login form",
   "description": "A login form",
   "registryDependencies": [
     "@domino/button",

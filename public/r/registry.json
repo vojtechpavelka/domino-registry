@@ -253,7 +253,7 @@
     {
       "name": "login-form",
       "type": "registry:block",
-      "title": "Login Form",
+      "title": "Login form",
       "description": "A login form",
       "registryDependencies": [
         "@domino/button",
@@ -505,7 +505,7 @@
     {
       "name": "complex-component",
       "type": "registry:component",
-      "title": "Complex Component",
+      "title": "Complex component",
       "description": "A complex component showing hooks, libs and components.",
       "registryDependencies": [
         "@domino/card"
@@ -598,7 +598,7 @@
     {
       "name": "example-form",
       "type": "registry:component",
-      "title": "Example Form",
+      "title": "Example form",
       "description": "A contact form with Zod validation.",
       "dependencies": [
         "zod"
@@ -644,7 +644,7 @@
     {
       "name": "hello-world",
       "type": "registry:component",
-      "title": "Hello World",
+      "title": "Hello world",
       "description": "A simple hello world component",
       "registryDependencies": [
         "@domino/button",

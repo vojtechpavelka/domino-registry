@@ -2,7 +2,7 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "hello-world",
   "type": "registry:component",
-  "title": "Hello World",
+  "title": "Hello world",
   "description": "A simple hello world component",
   "registryDependencies": [
     "@domino/button",
