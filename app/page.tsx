@@ -1,5 +1,6 @@
 import * as React from "react";
 import { OpenInV0Button } from "@/components/open-in-v0-button";
+import { AddCommandButton } from "@/components/add-command-button";
 import { HelloWorld } from "@/registry/domino/blocks/hello-world/hello-world";
 import { ExampleForm } from "@/registry/domino/blocks/example-form/example-form";
 import PokemonPage from "@/registry/domino/blocks/complex-component/page";
@@ -22,7 +23,10 @@ export default function Home() {
             <h2 className="text-sm text-muted-foreground sm:pl-3">
               A simple hello world component
             </h2>
-            <OpenInV0Button name="hello-world" className="w-fit" />
+            <div className="flex gap-2">
+              <AddCommandButton registryItem="hello-world" />
+              <OpenInV0Button name="hello-world" className="w-fit" />
+            </div>
           </div>
           <div className="flex items-center justify-center min-h-[400px] relative">
             <HelloWorld />
@@ -34,7 +38,10 @@ export default function Home() {
             <h2 className="text-sm text-muted-foreground sm:pl-3">
               A contact form with Zod validation.
             </h2>
-            <OpenInV0Button name="example-form" className="w-fit" />
+            <div className="flex gap-2">
+              <AddCommandButton registryItem="example-form" />
+              <OpenInV0Button name="example-form" className="w-fit" />
+            </div>
           </div>
           <div className="flex items-center justify-center min-h-[500px] relative">
             <ExampleForm />
@@ -46,7 +53,10 @@ export default function Home() {
             <h2 className="text-sm text-muted-foreground sm:pl-3">
               A complex component showing hooks, libs and components.
             </h2>
-            <OpenInV0Button name="complex-component" className="w-fit" />
+            <div className="flex gap-2">
+              <AddCommandButton registryItem="complex-component" />
+              <OpenInV0Button name="complex-component" className="w-fit" />
+            </div>
           </div>
           <div className="flex items-center justify-center min-h-[400px] relative">
             <PokemonPage />
@@ -58,7 +68,10 @@ export default function Home() {
             <h2 className="text-sm text-muted-foreground sm:pl-3">
               A login form.
             </h2>
-            <OpenInV0Button name="login-form" className="w-fit" />
+            <div className="flex gap-2">
+              <AddCommandButton registryItem="login-form" />
+              <OpenInV0Button name="login-form" className="w-fit" />
+            </div>
           </div>
           <div className="flex items-center justify-center min-h-[400px] relative">
             <LoginForm />
