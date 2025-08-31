@@ -64,7 +64,7 @@ export function RegistrySetup({
           </DialogDescription>
         </DialogHeader>
         <div className="font-medium">Initialize shadcn/ui in your project</div>
-        <div className="bg-muted p-8 rounded-md">
+        <div className="bg-muted p-8 rounded-md overflow-x-auto">
           <pre className="text-sm font-mono">
             <code>npx shadcn@latest init</code>
           </pre>
@@ -82,7 +82,7 @@ export function RegistrySetup({
           >
             {isCopied ? <CheckIcon /> : <CopyIcon />}
           </Button>
-          <div className="bg-muted p-8 rounded-md">
+          <div className="bg-muted p-8 rounded-md overflow-x-auto">
             <pre className="text-sm font-mono">
               <code>{registrySetupCode}</code>
             </pre>
@@ -91,7 +91,7 @@ export function RegistrySetup({
         <div className="font-medium">
           Then use the following command to add components:
         </div>
-        <div className="bg-muted p-8 rounded-md">
+        <div className="bg-muted p-8 rounded-md overflow-x-auto">
           <pre className="text-sm font-mono">
             <code>npx shadcn@latest add @domino/[component-name]</code>
           </pre>
@@ -99,7 +99,7 @@ export function RegistrySetup({
         <div className="font-medium">
           Run the following command to setup the MCP server:
         </div>
-        <div className="bg-muted p-8 rounded-md">
+        <div className="bg-muted p-8 rounded-md overflow-x-auto">
           <pre className="text-sm font-mono">
             <code>npx shadcn@latest mcp init</code>
           </pre>
