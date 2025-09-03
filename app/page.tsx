@@ -1,49 +1,60 @@
 import * as React from "react";
-import { registryItemSchema } from "shadcn/schema";
-import registry from "@/registry.json";
 import { CopyCommandButton } from "@/components/copy-command-button";
 import { OpenInV0Button } from "@/components/open-in-v0-button";
-import { blocks } from "@/components/blocks";
+import { LoginForm } from "@/registry/domino/blocks/login-form/login-form";
+import { HelloWorld } from "@/registry/domino/blocks/hello-world/hello-world";
+import PokemonPage from "@/registry/domino/blocks/complex-component/page";
+import { ExampleForm } from "@/registry/domino/blocks/example-form/example-form";
 
-const getRegistryItemFromJson = React.cache((name: string) => {
-  const registryItem = registry.items.find((item) => item.name === name);
-
-  const result = registryItemSchema.safeParse(registryItem);
-  if (!result.success) {
-    return null;
-  }
-  return result.data;
-});
+const items = [
+  {
+    name: "hello-world",
+    title: "Hello world",
+    description: "Hello world component",
+    component: HelloWorld,
+  },
+  {
+    name: "example-form",
+    title: "Example form",
+    description: "Example form component",
+    component: ExampleForm,
+  },
+  {
+    name: "complex-component",
+    title: "Complex component",
+    description: "Complex component",
+    component: PokemonPage,
+  },
+  {
+    name: "login-form",
+    title: "Login form",
+    description: "Login form component",
+    component: LoginForm,
+  },
+];
 
 export default function Home() {
   return (
     <main className="max-w-7xl mx-auto flex flex-col gap-12">
-      {blocks.map((block) => {
-        const registryItem = getRegistryItemFromJson(block.name);
-        if (!registryItem) {
-          return "No registry item found";
-        }
-
-        return (
-          <div key={registryItem.name} className="flex flex-col gap-4">
-            <div className="flex flex-row items-center">
-              <div className="flex flex-col gap-1">
-                <h2 className="text-xl font-semibold">{registryItem.title}</h2>
-                <p className="text-sm font-normal text-muted-foreground">
-                  {registryItem.description}
-                </p>
-              </div>
-              <div className="flex items-center gap-2 ml-auto">
-                <CopyCommandButton registryItem={registryItem.name} />
-                <OpenInV0Button name={registryItem.name} className="w-fit" />
-              </div>
+      {items.map((item) => (
+        <div key={item.name} className="flex flex-col gap-4">
+          <div className="flex flex-row items-center">
+            <div className="flex flex-col gap-1">
+              <h2 className="text-xl font-semibold">{item.title}</h2>
+              <p className="text-base font-normal text-muted-foreground">
+                {item.description}
+              </p>
             </div>
-            <div className="flex items-center border rounded-xl justify-center min-h-[400px] p-10 bg-muted/30">
-              <block.component />
+            <div className="flex items-center gap-2 ml-auto">
+              <CopyCommandButton registryItem={item.name} />
+              <OpenInV0Button name={item.name} />
             </div>
           </div>
-        );
-      })}
+          <div className="flex items-center border rounded-xl justify-center bg-muted/30 aspect-video">
+            <item.component />
+          </div>
+        </div>
+      ))}
     </main>
   );
 }
