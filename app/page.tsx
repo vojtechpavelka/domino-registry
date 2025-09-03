@@ -1,7 +1,7 @@
 import * as React from "react";
 import { registryItemSchema } from "shadcn/schema";
 import registry from "@/registry.json";
-import { AddCommandButton } from "@/components/add-command-button";
+import { CopyCommandButton } from "@/components/copy-command-button";
 import { OpenInV0Button } from "@/components/open-in-v0-button";
 import { blocks } from "@/components/blocks";
 
@@ -34,7 +34,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex items-center gap-2 ml-auto">
-                <AddCommandButton registryItem={registryItem.name} />
+                <CopyCommandButton registryItem={registryItem.name} />
                 <OpenInV0Button name={registryItem.name} className="w-fit" />
               </div>
             </div>

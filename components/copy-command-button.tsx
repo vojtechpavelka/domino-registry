@@ -4,7 +4,7 @@ import { useCopyToClipboard } from "@/hooks/use-copy-to-clipboard";
 import { Button } from "@/components/ui/button";
 import { CheckIcon } from "lucide-react";
 
-export function AddCommandButton({ registryItem }: { registryItem: string }) {
+export function CopyCommandButton({ registryItem }: { registryItem: string }) {
   const { isCopied, copyToClipboard } = useCopyToClipboard();
 
   return (
