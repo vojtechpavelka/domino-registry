@@ -5,8 +5,8 @@
   "title": "Hello world",
   "description": "A simple hello world component",
   "registryDependencies": [
-    "@domino/button",
-    "@domino/theme"
+    "https://domino-registry.vercel.app/r/button.json",
+    "https://domino-registry.vercel.app/r/theme.json"
   ],
   "files": [
     {

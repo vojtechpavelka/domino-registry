@@ -5,7 +5,7 @@
   "title": "Pagination",
   "description": "Pagination component",
   "registryDependencies": [
-    "@domino/button"
+    "https://domino-registry.vercel.app/r/button.json"
   ],
   "files": [
     {

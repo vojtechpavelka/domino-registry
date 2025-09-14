@@ -5,10 +5,10 @@
   "title": "Command",
   "description": "Command menu",
   "dependencies": [
-    "@domino/cmdk"
+    "cmdk"
   ],
   "registryDependencies": [
-    "@domino/dialog"
+    "https://domino-registry.vercel.app/r/dialog.json"
   ],
   "files": [
     {

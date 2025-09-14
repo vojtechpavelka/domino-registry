@@ -12,8 +12,8 @@
     "react-hook-form"
   ],
   "registryDependencies": [
-    "@domino/button",
-    "@domino/label"
+    "https://domino-registry.vercel.app/r/button.json",
+    "https://domino-registry.vercel.app/r/label.json"
   ],
   "files": [
     {

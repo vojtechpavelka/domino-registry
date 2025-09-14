@@ -4,60 +4,58 @@
   "homepage": "https://domino-registry.vercel.app",
   "items": [
     {
-      "name": "domino-style",
+      "name": "design-system",
       "type": "registry:style",
-      "title": "Domino style",
-      "description": "Domino style",
-      "dependencies": [
-        "radix-ui"
-      ],
+      "title": "Domino design system",
+      "description": "Domino design system",
+      "dependencies": ["radix-ui"],
       "registryDependencies": [
-        "@domino/accordion",
-        "@domino/alert-dialog",
-        "@domino/alert",
-        "@domino/aspect-ratio",
-        "@domino/avatar",
-        "@domino/badge",
-        "@domino/breadcrumb",
-        "@domino/button",
-        "@domino/calendar",
-        "@domino/card",
-        "@domino/carousel",
-        "@domino/chart",
-        "@domino/checkbox",
-        "@domino/collapsible",
-        "@domino/command",
-        "@domino/context-menu",
-        "@domino/dialog",
-        "@domino/drawer",
-        "@domino/dropdown-menu",
-        "@domino/form",
-        "@domino/hover-card",
-        "@domino/input-otp",
-        "@domino/input",
-        "@domino/label",
-        "@domino/menubar",
-        "@domino/navigation-menu",
-        "@domino/pagination",
-        "@domino/popover",
-        "@domino/progress",
-        "@domino/radio-group",
-        "@domino/resizable",
-        "@domino/scroll-area",
-        "@domino/select",
-        "@domino/separator",
-        "@domino/sheet",
-        "@domino/slider",
-        "@domino/sidebar",
-        "@domino/skeleton",
-        "@domino/sonner",
-        "@domino/switch",
-        "@domino/table",
-        "@domino/tabs",
-        "@domino/textarea",
-        "@domino/toggle-group",
-        "@domino/toggle",
-        "@domino/tooltip"
+        "https://domino-registry.vercel.app/r/accordion.json",
+        "https://domino-registry.vercel.app/r/alert-dialog.json",
+        "https://domino-registry.vercel.app/r/alert.json",
+        "https://domino-registry.vercel.app/r/aspect-ratio.json",
+        "https://domino-registry.vercel.app/r/avatar.json",
+        "https://domino-registry.vercel.app/r/badge.json",
+        "https://domino-registry.vercel.app/r/breadcrumb.json",
+        "https://domino-registry.vercel.app/r/button.json",
+        "https://domino-registry.vercel.app/r/calendar.json",
+        "https://domino-registry.vercel.app/r/card.json",
+        "https://domino-registry.vercel.app/r/carousel.json",
+        "https://domino-registry.vercel.app/r/chart.json",
+        "https://domino-registry.vercel.app/r/checkbox.json",
+        "https://domino-registry.vercel.app/r/collapsible.json",
+        "https://domino-registry.vercel.app/r/command.json",
+        "https://domino-registry.vercel.app/r/context-menu.json",
+        "https://domino-registry.vercel.app/r/dialog.json",
+        "https://domino-registry.vercel.app/r/drawer.json",
+        "https://domino-registry.vercel.app/r/dropdown-menu.json",
+        "https://domino-registry.vercel.app/r/form.json",
+        "https://domino-registry.vercel.app/r/hover-card.json",
+        "https://domino-registry.vercel.app/r/input-otp.json",
+        "https://domino-registry.vercel.app/r/input.json",
+        "https://domino-registry.vercel.app/r/label.json",
+        "https://domino-registry.vercel.app/r/menubar.json",
+        "https://domino-registry.vercel.app/r/navigation-menu.json",
+        "https://domino-registry.vercel.app/r/pagination.json",
+        "https://domino-registry.vercel.app/r/popover.json",
+        "https://domino-registry.vercel.app/r/progress.json",
+        "https://domino-registry.vercel.app/r/radio-group.json",
+        "https://domino-registry.vercel.app/r/resizable.json",
+        "https://domino-registry.vercel.app/r/scroll-area.json",
+        "https://domino-registry.vercel.app/r/select.json",
+        "https://domino-registry.vercel.app/r/separator.json",
+        "https://domino-registry.vercel.app/r/sheet.json",
+        "https://domino-registry.vercel.app/r/slider.json",
+        "https://domino-registry.vercel.app/r/sidebar.json",
+        "https://domino-registry.vercel.app/r/skeleton.json",
+        "https://domino-registry.vercel.app/r/sonner.json",
+        "https://domino-registry.vercel.app/r/switch.json",
+        "https://domino-registry.vercel.app/r/table.json",
+        "https://domino-registry.vercel.app/r/tabs.json",
+        "https://domino-registry.vercel.app/r/textarea.json",
+        "https://domino-registry.vercel.app/r/toggle-group.json",
+        "https://domino-registry.vercel.app/r/toggle.json",
+        "https://domino-registry.vercel.app/r/tooltip.json"
       ],
       "cssVars": {
         "light": {
@@ -144,7 +142,14 @@
           "selection": "oklch(0.922 0 0)",
           "selection-foreground": "oklch(0.205 0 0)"
         }
-      }
+      },
+      "files": [
+        {
+          "path": "registry/domino/rules/AGENTS.md",
+          "type": "registry:file",
+          "target": "~/AGENTS.md"
+        }
+      ]
     },
     {
       "name": "theme",
@@ -256,11 +261,11 @@
       "title": "Login form",
       "description": "A login form",
       "registryDependencies": [
-        "@domino/button",
-        "@domino/input",
-        "@domino/label",
-        "@domino/card",
-        "@domino/theme"
+        "https://domino-registry.vercel.app/r/button.json",
+        "https://domino-registry.vercel.app/r/input.json",
+        "https://domino-registry.vercel.app/r/label.json",
+        "https://domino-registry.vercel.app/r/card.json",
+        "https://domino-registry.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -274,9 +279,7 @@
       "type": "registry:ui",
       "title": "Accordion",
       "description": "Accordion primitive",
-      "dependencies": [
-        "@radix-ui/react-accordion"
-      ],
+      "dependencies": ["@radix-ui/react-accordion"],
       "files": [
         {
           "path": "registry/domino/ui/accordion.tsx",
@@ -301,11 +304,9 @@
       "type": "registry:ui",
       "title": "Alert dialog",
       "description": "Alert dialog primitive",
-      "dependencies": [
-        "@radix-ui/react-alert-dialog"
-      ],
+      "dependencies": ["@radix-ui/react-alert-dialog"],
       "registryDependencies": [
-        "@domino/button"
+        "https://domino-registry.vercel.app/r/button.json"
       ],
       "files": [
         {
@@ -319,9 +320,7 @@
       "type": "registry:ui",
       "title": "Aspect ratio",
       "description": "Aspect ratio primitive",
-      "dependencies": [
-        "@radix-ui/react-aspect-ratio"
-      ],
+      "dependencies": ["@radix-ui/react-aspect-ratio"],
       "files": [
         {
           "path": "registry/domino/ui/aspect-ratio.tsx",
@@ -334,9 +333,7 @@
       "type": "registry:ui",
       "title": "Avatar",
       "description": "Avatar primitive",
-      "dependencies": [
-        "@radix-ui/react-avatar"
-      ],
+      "dependencies": ["@radix-ui/react-avatar"],
       "files": [
         {
           "path": "registry/domino/ui/avatar.tsx",
@@ -349,9 +346,7 @@
       "type": "registry:ui",
       "title": "Badge",
       "description": "Badge primitive",
-      "dependencies": [
-        "@radix-ui/react-slot"
-      ],
+      "dependencies": ["@radix-ui/react-slot"],
       "files": [
         {
           "path": "registry/domino/ui/badge.tsx",
@@ -364,9 +359,7 @@
       "type": "registry:ui",
       "title": "Breadcrumb",
       "description": "Breadcrumb primitive",
-      "dependencies": [
-        "@radix-ui/react-slot"
-      ],
+      "dependencies": ["@radix-ui/react-slot"],
       "files": [
         {
           "path": "registry/domino/ui/breadcrumb.tsx",
@@ -379,9 +372,7 @@
       "type": "registry:ui",
       "title": "Button",
       "description": "Button primitive",
-      "dependencies": [
-        "@radix-ui/react-slot"
-      ],
+      "dependencies": ["@radix-ui/react-slot"],
       "files": [
         {
           "path": "registry/domino/ui/button.tsx",
@@ -394,12 +385,9 @@
       "type": "registry:ui",
       "title": "Calendar",
       "description": "Calendar component",
-      "dependencies": [
-        "react-day-picker@latest",
-        "date-fns"
-      ],
+      "dependencies": ["react-day-picker@latest", "date-fns"],
       "registryDependencies": [
-        "@domino/button"
+        "https://domino-registry.vercel.app/r/button.json"
       ],
       "files": [
         {
@@ -425,11 +413,9 @@
       "type": "registry:ui",
       "title": "Carousel",
       "description": "Carousel component",
-      "dependencies": [
-        "embla-carousel-react"
-      ],
+      "dependencies": ["embla-carousel-react"],
       "registryDependencies": [
-        "@domino/button"
+        "https://domino-registry.vercel.app/r/button.json"
       ],
       "files": [
         {
@@ -443,10 +429,7 @@
       "type": "registry:ui",
       "title": "Chart",
       "description": "Chart components",
-      "dependencies": [
-        "recharts@2.15.4",
-        "lucide-react"
-      ],
+      "dependencies": ["recharts@2.15.4", "lucide-react"],
       "files": [
         {
           "path": "registry/domino/ui/chart.tsx",
@@ -459,9 +442,7 @@
       "type": "registry:ui",
       "title": "Checkbox",
       "description": "Checkbox primitive",
-      "dependencies": [
-        "@radix-ui/react-checkbox"
-      ],
+      "dependencies": ["@radix-ui/react-checkbox"],
       "files": [
         {
           "path": "registry/domino/ui/checkbox.tsx",
@@ -474,9 +455,7 @@
       "type": "registry:ui",
       "title": "Collapsible",
       "description": "Collapsible primitive",
-      "dependencies": [
-        "@radix-ui/react-collapsible"
-      ],
+      "dependencies": ["@radix-ui/react-collapsible"],
       "files": [
         {
           "path": "registry/domino/ui/collapsible.tsx",
@@ -489,11 +468,9 @@
       "type": "registry:ui",
       "title": "Command",
       "description": "Command menu",
-      "dependencies": [
-        "@domino/cmdk"
-      ],
+      "dependencies": ["cmdk"],
       "registryDependencies": [
-        "@domino/dialog"
+        "https://domino-registry.vercel.app/r/dialog.json"
       ],
       "files": [
         {
@@ -508,7 +485,7 @@
       "title": "Complex component",
       "description": "A complex component showing hooks, libs and components.",
       "registryDependencies": [
-        "@domino/card"
+        "https://domino-registry.vercel.app/r/card.json"
       ],
       "files": [
         {
@@ -539,9 +516,7 @@
       "type": "registry:ui",
       "title": "Context menu",
       "description": "Context menu primitive",
-      "dependencies": [
-        "@radix-ui/react-context-menu"
-      ],
+      "dependencies": ["@radix-ui/react-context-menu"],
       "files": [
         {
           "path": "registry/domino/ui/context-menu.tsx",
@@ -554,9 +529,7 @@
       "type": "registry:ui",
       "title": "Dialog",
       "description": "Dialog primitive",
-      "dependencies": [
-        "@radix-ui/react-dialog"
-      ],
+      "dependencies": ["@radix-ui/react-dialog"],
       "files": [
         {
           "path": "registry/domino/ui/dialog.tsx",
@@ -569,10 +542,7 @@
       "type": "registry:ui",
       "title": "Drawer",
       "description": "Drawer component",
-      "dependencies": [
-        "vaul",
-        "@radix-ui/react-dialog"
-      ],
+      "dependencies": ["vaul", "@radix-ui/react-dialog"],
       "files": [
         {
           "path": "registry/domino/ui/drawer.tsx",
@@ -585,9 +555,7 @@
       "type": "registry:ui",
       "title": "Dropdown menu",
       "description": "Dropdown menu primitive",
-      "dependencies": [
-        "@radix-ui/react-dropdown-menu"
-      ],
+      "dependencies": ["@radix-ui/react-dropdown-menu"],
       "files": [
         {
           "path": "registry/domino/ui/dropdown-menu.tsx",
@@ -600,16 +568,14 @@
       "type": "registry:component",
       "title": "Example form",
       "description": "A contact form with Zod validation.",
-      "dependencies": [
-        "zod"
-      ],
+      "dependencies": ["zod"],
       "registryDependencies": [
-        "@domino/button",
-        "@domino/input",
-        "@domino/label",
-        "@domino/textarea",
-        "@domino/card",
-        "@domino/theme"
+        "https://domino-registry.vercel.app/r/button.json",
+        "https://domino-registry.vercel.app/r/input.json",
+        "https://domino-registry.vercel.app/r/label.json",
+        "https://domino-registry.vercel.app/r/textarea.json",
+        "https://domino-registry.vercel.app/r/card.json",
+        "https://domino-registry.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -631,8 +597,8 @@
         "react-hook-form"
       ],
       "registryDependencies": [
-        "@domino/button",
-        "@domino/label"
+        "https://domino-registry.vercel.app/r/button.json",
+        "https://domino-registry.vercel.app/r/label.json"
       ],
       "files": [
         {
@@ -647,8 +613,8 @@
       "title": "Hello world",
       "description": "A simple hello world component",
       "registryDependencies": [
-        "@domino/button",
-        "@domino/theme"
+        "https://domino-registry.vercel.app/r/button.json",
+        "https://domino-registry.vercel.app/r/theme.json"
       ],
       "files": [
         {
@@ -662,9 +628,7 @@
       "type": "registry:ui",
       "title": "Hover card",
       "description": "Hover card primitive",
-      "dependencies": [
-        "@radix-ui/react-hover-card"
-      ],
+      "dependencies": ["@radix-ui/react-hover-card"],
       "files": [
         {
           "path": "registry/domino/ui/hover-card.tsx",
@@ -689,9 +653,7 @@
       "type": "registry:ui",
       "title": "Input OTP",
       "description": "One-time password input",
-      "dependencies": [
-        "input-otp"
-      ],
+      "dependencies": ["input-otp"],
       "files": [
         {
           "path": "registry/domino/ui/input-otp.tsx",
@@ -704,9 +666,7 @@
       "type": "registry:ui",
       "title": "Label",
       "description": "Label primitive",
-      "dependencies": [
-        "@radix-ui/react-label"
-      ],
+      "dependencies": ["@radix-ui/react-label"],
       "files": [
         {
           "path": "registry/domino/ui/label.tsx",
@@ -719,9 +679,7 @@
       "type": "registry:ui",
       "title": "Menubar",
       "description": "Menubar primitive",
-      "dependencies": [
-        "@radix-ui/react-menubar"
-      ],
+      "dependencies": ["@radix-ui/react-menubar"],
       "files": [
         {
           "path": "registry/domino/ui/menubar.tsx",
@@ -734,9 +692,7 @@
       "type": "registry:ui",
       "title": "Navigation menu",
       "description": "Navigation menu primitive",
-      "dependencies": [
-        "@radix-ui/react-navigation-menu"
-      ],
+      "dependencies": ["@radix-ui/react-navigation-menu"],
       "files": [
         {
           "path": "registry/domino/ui/navigation-menu.tsx",
@@ -750,7 +706,7 @@
       "title": "Pagination",
       "description": "Pagination component",
       "registryDependencies": [
-        "@domino/button"
+        "https://domino-registry.vercel.app/r/button.json"
       ],
       "files": [
         {
@@ -764,9 +720,7 @@
       "type": "registry:ui",
       "title": "Popover",
       "description": "Popover primitive",
-      "dependencies": [
-        "@radix-ui/react-popover"
-      ],
+      "dependencies": ["@radix-ui/react-popover"],
       "files": [
         {
           "path": "registry/domino/ui/popover.tsx",
@@ -779,9 +733,7 @@
       "type": "registry:ui",
       "title": "Progress",
       "description": "Progress bar primitive",
-      "dependencies": [
-        "@radix-ui/react-progress"
-      ],
+      "dependencies": ["@radix-ui/react-progress"],
       "files": [
         {
           "path": "registry/domino/ui/progress.tsx",
@@ -794,9 +746,7 @@
       "type": "registry:ui",
       "title": "Radio Group",
       "description": "Radio group primitive",
-      "dependencies": [
-        "@radix-ui/react-radio-group"
-      ],
+      "dependencies": ["@radix-ui/react-radio-group"],
       "files": [
         {
           "path": "registry/domino/ui/radio-group.tsx",
@@ -809,9 +759,7 @@
       "type": "registry:ui",
       "title": "Resizable",
       "description": "Resizable layout panels",
-      "dependencies": [
-        "react-resizable-panels"
-      ],
+      "dependencies": ["react-resizable-panels"],
       "files": [
         {
           "path": "registry/domino/ui/resizable.tsx",
@@ -824,9 +772,7 @@
       "type": "registry:ui",
       "title": "Scroll area",
       "description": "Scroll area primitive",
-      "dependencies": [
-        "@radix-ui/react-scroll-area"
-      ],
+      "dependencies": ["@radix-ui/react-scroll-area"],
       "files": [
         {
           "path": "registry/domino/ui/scroll-area.tsx",
@@ -839,9 +785,7 @@
       "type": "registry:ui",
       "title": "Select",
       "description": "Select primitive",
-      "dependencies": [
-        "@radix-ui/react-select"
-      ],
+      "dependencies": ["@radix-ui/react-select"],
       "files": [
         {
           "path": "registry/domino/ui/select.tsx",
@@ -854,9 +798,7 @@
       "type": "registry:ui",
       "title": "Separator",
       "description": "Separator primitive",
-      "dependencies": [
-        "@radix-ui/react-separator"
-      ],
+      "dependencies": ["@radix-ui/react-separator"],
       "files": [
         {
           "path": "registry/domino/ui/separator.tsx",
@@ -869,9 +811,7 @@
       "type": "registry:ui",
       "title": "Sheet",
       "description": "Sheet component",
-      "dependencies": [
-        "@radix-ui/react-dialog"
-      ],
+      "dependencies": ["@radix-ui/react-dialog"],
       "files": [
         {
           "path": "registry/domino/ui/sheet.tsx",
@@ -890,13 +830,13 @@
         "lucide-react"
       ],
       "registryDependencies": [
-        "@domino/button",
-        "@domino/separator",
-        "@domino/sheet",
-        "@domino/tooltip",
-        "@domino/input",
-        "@domino/use-mobile",
-        "@domino/skeleton"
+        "https://domino-registry.vercel.app/r/button.json",
+        "https://domino-registry.vercel.app/r/separator.json",
+        "https://domino-registry.vercel.app/r/sheet.json",
+        "https://domino-registry.vercel.app/r/tooltip.json",
+        "https://domino-registry.vercel.app/r/input.json",
+        "https://domino-registry.vercel.app/r/use-mobile.json",
+        "https://domino-registry.vercel.app/r/skeleton.json"
       ],
       "files": [
         {
@@ -933,9 +873,7 @@
       "type": "registry:ui",
       "title": "Slider",
       "description": "Slider primitive",
-      "dependencies": [
-        "@radix-ui/react-slider"
-      ],
+      "dependencies": ["@radix-ui/react-slider"],
       "files": [
         {
           "path": "registry/domino/ui/slider.tsx",
@@ -948,10 +886,7 @@
       "type": "registry:ui",
       "title": "Sonner",
       "description": "Toaster notifications using sonner",
-      "dependencies": [
-        "sonner",
-        "next-themes"
-      ],
+      "dependencies": ["sonner", "next-themes"],
       "files": [
         {
           "path": "registry/domino/ui/sonner.tsx",
@@ -964,9 +899,7 @@
       "type": "registry:ui",
       "title": "Switch",
       "description": "Switch primitive",
-      "dependencies": [
-        "@radix-ui/react-switch"
-      ],
+      "dependencies": ["@radix-ui/react-switch"],
       "files": [
         {
           "path": "registry/domino/ui/switch.tsx",
@@ -991,9 +924,7 @@
       "type": "registry:ui",
       "title": "Tabs",
       "description": "Tabs primitive",
-      "dependencies": [
-        "@radix-ui/react-tabs"
-      ],
+      "dependencies": ["@radix-ui/react-tabs"],
       "files": [
         {
           "path": "registry/domino/ui/tabs.tsx",
@@ -1018,9 +949,7 @@
       "type": "registry:ui",
       "title": "Toggle",
       "description": "Toggle primitive",
-      "dependencies": [
-        "@radix-ui/react-toggle"
-      ],
+      "dependencies": ["@radix-ui/react-toggle"],
       "files": [
         {
           "path": "registry/domino/ui/toggle.tsx",
@@ -1033,11 +962,9 @@
       "type": "registry:ui",
       "title": "Toggle Group",
       "description": "Toggle group primitive",
-      "dependencies": [
-        "@radix-ui/react-toggle-group"
-      ],
+      "dependencies": ["@radix-ui/react-toggle-group"],
       "registryDependencies": [
-        "@domino/toggle"
+        "https://domino-registry.vercel.app/r/toggle.json"
       ],
       "files": [
         {
@@ -1051,9 +978,7 @@
       "type": "registry:ui",
       "title": "Tooltip",
       "description": "Tooltip primitive",
-      "dependencies": [
-        "@radix-ui/react-tooltip"
-      ],
+      "dependencies": ["@radix-ui/react-tooltip"],
       "files": [
         {
           "path": "registry/domino/ui/tooltip.tsx",

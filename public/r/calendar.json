@@ -9,7 +9,7 @@
     "date-fns"
   ],
   "registryDependencies": [
-    "@domino/button"
+    "https://domino-registry.vercel.app/r/button.json"
   ],
   "files": [
     {

@@ -10,13 +10,13 @@
     "lucide-react"
   ],
   "registryDependencies": [
-    "@domino/button",
-    "@domino/separator",
-    "@domino/sheet",
-    "@domino/tooltip",
-    "@domino/input",
-    "@domino/use-mobile",
-    "@domino/skeleton"
+    "https://domino-registry.vercel.app/r/button.json",
+    "https://domino-registry.vercel.app/r/separator.json",
+    "https://domino-registry.vercel.app/r/sheet.json",
+    "https://domino-registry.vercel.app/r/tooltip.json",
+    "https://domino-registry.vercel.app/r/input.json",
+    "https://domino-registry.vercel.app/r/use-mobile.json",
+    "https://domino-registry.vercel.app/r/skeleton.json"
   ],
   "files": [
     {

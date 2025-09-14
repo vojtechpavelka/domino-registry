@@ -5,7 +5,7 @@
   "title": "Complex component",
   "description": "A complex component showing hooks, libs and components.",
   "registryDependencies": [
-    "@domino/card"
+    "https://domino-registry.vercel.app/r/card.json"
   ],
   "files": [
     {

@@ -5,11 +5,11 @@
   "title": "Login form",
   "description": "A login form",
   "registryDependencies": [
-    "@domino/button",
-    "@domino/input",
-    "@domino/label",
-    "@domino/card",
-    "@domino/theme"
+    "https://domino-registry.vercel.app/r/button.json",
+    "https://domino-registry.vercel.app/r/input.json",
+    "https://domino-registry.vercel.app/r/label.json",
+    "https://domino-registry.vercel.app/r/card.json",
+    "https://domino-registry.vercel.app/r/theme.json"
   ],
   "files": [
     {
