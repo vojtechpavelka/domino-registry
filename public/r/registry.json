@@ -283,7 +283,8 @@
       "files": [
         {
           "path": "registry/domino/ui/accordion.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -295,7 +296,8 @@
       "files": [
         {
           "path": "registry/domino/ui/alert.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -311,7 +313,8 @@
       "files": [
         {
           "path": "registry/domino/ui/alert-dialog.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -324,7 +327,8 @@
       "files": [
         {
           "path": "registry/domino/ui/aspect-ratio.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -337,7 +341,8 @@
       "files": [
         {
           "path": "registry/domino/ui/avatar.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -350,7 +355,8 @@
       "files": [
         {
           "path": "registry/domino/ui/badge.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -363,7 +369,8 @@
       "files": [
         {
           "path": "registry/domino/ui/breadcrumb.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -376,7 +383,8 @@
       "files": [
         {
           "path": "registry/domino/ui/button.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -392,7 +400,8 @@
       "files": [
         {
           "path": "registry/domino/ui/calendar.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -404,7 +413,8 @@
       "files": [
         {
           "path": "registry/domino/ui/card.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -420,7 +430,8 @@
       "files": [
         {
           "path": "registry/domino/ui/carousel.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -433,7 +444,8 @@
       "files": [
         {
           "path": "registry/domino/ui/chart.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -446,7 +458,8 @@
       "files": [
         {
           "path": "registry/domino/ui/checkbox.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -459,7 +472,8 @@
       "files": [
         {
           "path": "registry/domino/ui/collapsible.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -475,7 +489,8 @@
       "files": [
         {
           "path": "registry/domino/ui/command.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -520,7 +535,8 @@
       "files": [
         {
           "path": "registry/domino/ui/context-menu.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -533,7 +549,8 @@
       "files": [
         {
           "path": "registry/domino/ui/dialog.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -546,7 +563,8 @@
       "files": [
         {
           "path": "registry/domino/ui/drawer.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -559,7 +577,8 @@
       "files": [
         {
           "path": "registry/domino/ui/dropdown-menu.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -603,7 +622,8 @@
       "files": [
         {
           "path": "registry/domino/ui/form.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -632,7 +652,8 @@
       "files": [
         {
           "path": "registry/domino/ui/hover-card.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -644,7 +665,8 @@
       "files": [
         {
           "path": "registry/domino/ui/input.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -657,7 +679,8 @@
       "files": [
         {
           "path": "registry/domino/ui/input-otp.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -670,7 +693,8 @@
       "files": [
         {
           "path": "registry/domino/ui/label.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -683,7 +707,8 @@
       "files": [
         {
           "path": "registry/domino/ui/menubar.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -696,7 +721,8 @@
       "files": [
         {
           "path": "registry/domino/ui/navigation-menu.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -711,7 +737,8 @@
       "files": [
         {
           "path": "registry/domino/ui/pagination.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -724,7 +751,8 @@
       "files": [
         {
           "path": "registry/domino/ui/popover.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -737,7 +765,8 @@
       "files": [
         {
           "path": "registry/domino/ui/progress.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -750,7 +779,8 @@
       "files": [
         {
           "path": "registry/domino/ui/radio-group.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -763,7 +793,8 @@
       "files": [
         {
           "path": "registry/domino/ui/resizable.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -776,7 +807,8 @@
       "files": [
         {
           "path": "registry/domino/ui/scroll-area.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -789,7 +821,8 @@
       "files": [
         {
           "path": "registry/domino/ui/select.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -802,7 +835,8 @@
       "files": [
         {
           "path": "registry/domino/ui/separator.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -815,7 +849,8 @@
       "files": [
         {
           "path": "registry/domino/ui/sheet.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -841,7 +876,8 @@
       "files": [
         {
           "path": "registry/domino/ui/sidebar.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -864,7 +900,8 @@
       "files": [
         {
           "path": "registry/domino/ui/skeleton.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -877,7 +914,8 @@
       "files": [
         {
           "path": "registry/domino/ui/slider.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -890,7 +928,8 @@
       "files": [
         {
           "path": "registry/domino/ui/sonner.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -903,7 +942,8 @@
       "files": [
         {
           "path": "registry/domino/ui/switch.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -915,7 +955,8 @@
       "files": [
         {
           "path": "registry/domino/ui/table.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -928,7 +969,8 @@
       "files": [
         {
           "path": "registry/domino/ui/tabs.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -940,7 +982,8 @@
       "files": [
         {
           "path": "registry/domino/ui/textarea.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -953,7 +996,8 @@
       "files": [
         {
           "path": "registry/domino/ui/toggle.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -969,7 +1013,8 @@
       "files": [
         {
           "path": "registry/domino/ui/toggle-group.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     },
@@ -982,7 +1027,8 @@
       "files": [
         {
           "path": "registry/domino/ui/tooltip.tsx",
-          "type": "registry:ui"
+          "type": "registry:ui",
+          "target": "/components/ui"
         }
       ]
     }
