@@ -34,21 +34,6 @@ export default function RootLayout({
         className={`${interSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <header className="max-w-7xl mx-auto flex items-center py-12">
-            <div className="flex flex-col gap-1">
-              <Link href="/">
-                <h1 className="text-3xl font-bold">Domino registry</h1>
-              </Link>
-              <p className="text-muted-foreground">
-                Domino component registry allows you to distribute Domino
-                components, hooks, pages, and other files to any React project
-              </p>
-            </div>
-            <div className="ml-auto flex flex-row gap-2">
-              <RegistrySetup />
-              <ModeToggle />
-            </div>
-          </header>
           {children}
         </ThemeProvider>
       </body>

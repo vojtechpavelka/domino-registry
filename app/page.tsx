@@ -5,6 +5,9 @@ import { LoginForm } from "@/registry/domino/blocks/login-form/login-form";
 import { HelloWorld } from "@/registry/domino/blocks/hello-world/hello-world";
 import PokemonPage from "@/registry/domino/blocks/complex-component/page";
 import { ExampleForm } from "@/registry/domino/blocks/example-form/example-form";
+import Link from "next/link";
+import { RegistrySetup } from "@/components/registry-setup";
+import { ModeToggle } from "@/components/mode-toggle";
 
 const items = [
   {
@@ -35,26 +38,43 @@ const items = [
 
 export default function Home() {
   return (
-    <main className="max-w-7xl mx-auto flex flex-col gap-12">
-      {items.map((item) => (
-        <div key={item.name} className="flex flex-col gap-4">
-          <div className="flex flex-row items-center">
-            <div className="flex flex-col gap-1">
-              <h2 className="text-xl font-semibold">{item.title}</h2>
-              <p className="text-base font-normal text-muted-foreground">
-                {item.description}
-              </p>
-            </div>
-            <div className="flex items-center gap-2 ml-auto">
-              <CopyCommandButton registryItem={item.name} />
-              <OpenInV0Button name={item.name} />
-            </div>
-          </div>
-          <div className="flex items-center border rounded-xl justify-center bg-muted/30 aspect-video">
-            <item.component />
-          </div>
+    <>
+      <header className="max-w-7xl mx-auto flex items-center py-12">
+        <div className="flex flex-col gap-1">
+          <Link href="/">
+            <h1 className="text-3xl font-bold">Domino registry</h1>
+          </Link>
+          <p className="text-muted-foreground">
+            Domino component registry allows you to distribute Domino
+            components, hooks, pages, and other files to any React project
+          </p>
         </div>
-      ))}
-    </main>
+        <div className="ml-auto flex flex-row gap-2">
+          <RegistrySetup />
+          <ModeToggle />
+        </div>
+      </header>
+      <main className="max-w-7xl mx-auto flex flex-col gap-12">
+        {items.map((item) => (
+          <div key={item.name} className="flex flex-col gap-4">
+            <div className="flex flex-row items-center">
+              <div className="flex flex-col gap-1">
+                <h2 className="text-xl font-semibold">{item.title}</h2>
+                <p className="text-base font-normal text-muted-foreground">
+                  {item.description}
+                </p>
+              </div>
+              <div className="flex items-center gap-2 ml-auto">
+                <CopyCommandButton registryItem={item.name} />
+                <OpenInV0Button name={item.name} />
+              </div>
+            </div>
+            <div className="flex items-center border rounded-xl justify-center bg-muted/30 aspect-video">
+              <item.component />
+            </div>
+          </div>
+        ))}
+      </main>
+    </>
   );
 }
