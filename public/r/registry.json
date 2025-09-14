@@ -284,7 +284,7 @@
         {
           "path": "registry/domino/ui/accordion.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/accordion.tsx"
         }
       ]
     },
@@ -297,7 +297,7 @@
         {
           "path": "registry/domino/ui/alert.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/alert.tsx"
         }
       ]
     },
@@ -314,7 +314,7 @@
         {
           "path": "registry/domino/ui/alert-dialog.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/alert-dialog.tsx"
         }
       ]
     },
@@ -328,7 +328,7 @@
         {
           "path": "registry/domino/ui/aspect-ratio.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/aspect-ratio.tsx"
         }
       ]
     },
@@ -342,7 +342,7 @@
         {
           "path": "registry/domino/ui/avatar.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/avatar.tsx"
         }
       ]
     },
@@ -356,7 +356,7 @@
         {
           "path": "registry/domino/ui/badge.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/badge.tsx"
         }
       ]
     },
@@ -370,7 +370,7 @@
         {
           "path": "registry/domino/ui/breadcrumb.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/breadcrumb.tsx"
         }
       ]
     },
@@ -384,7 +384,7 @@
         {
           "path": "registry/domino/ui/button.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/button.tsx"
         }
       ]
     },
@@ -401,7 +401,7 @@
         {
           "path": "registry/domino/ui/calendar.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/calendar.tsx"
         }
       ]
     },
@@ -414,7 +414,7 @@
         {
           "path": "registry/domino/ui/card.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/card.tsx"
         }
       ]
     },
@@ -431,7 +431,7 @@
         {
           "path": "registry/domino/ui/carousel.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/carousel.tsx"
         }
       ]
     },
@@ -445,7 +445,7 @@
         {
           "path": "registry/domino/ui/chart.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/chart.tsx"
         }
       ]
     },
@@ -459,7 +459,7 @@
         {
           "path": "registry/domino/ui/checkbox.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/checkbox.tsx"
         }
       ]
     },
@@ -473,7 +473,7 @@
         {
           "path": "registry/domino/ui/collapsible.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/collapsible.tsx"
         }
       ]
     },
@@ -490,7 +490,7 @@
         {
           "path": "registry/domino/ui/command.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/command.tsx"
         }
       ]
     },
@@ -536,7 +536,7 @@
         {
           "path": "registry/domino/ui/context-menu.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/context-menu.tsx"
         }
       ]
     },
@@ -550,7 +550,7 @@
         {
           "path": "registry/domino/ui/dialog.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/dialog.tsx"
         }
       ]
     },
@@ -564,7 +564,7 @@
         {
           "path": "registry/domino/ui/drawer.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/drawer.tsx"
         }
       ]
     },
@@ -578,7 +578,7 @@
         {
           "path": "registry/domino/ui/dropdown-menu.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/dropdown-menu.tsx"
         }
       ]
     },
@@ -623,7 +623,7 @@
         {
           "path": "registry/domino/ui/form.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/form.tsx"
         }
       ]
     },
@@ -653,7 +653,7 @@
         {
           "path": "registry/domino/ui/hover-card.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/hover-card.tsx"
         }
       ]
     },
@@ -666,7 +666,7 @@
         {
           "path": "registry/domino/ui/input.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/input.tsx"
         }
       ]
     },
@@ -680,7 +680,7 @@
         {
           "path": "registry/domino/ui/input-otp.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/input-otp.tsx"
         }
       ]
     },
@@ -694,7 +694,7 @@
         {
           "path": "registry/domino/ui/label.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/label.tsx"
         }
       ]
     },
@@ -708,7 +708,7 @@
         {
           "path": "registry/domino/ui/menubar.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/menubar.tsx"
         }
       ]
     },
@@ -722,7 +722,7 @@
         {
           "path": "registry/domino/ui/navigation-menu.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/navigation-menu.tsx"
         }
       ]
     },
@@ -738,7 +738,7 @@
         {
           "path": "registry/domino/ui/pagination.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/pagination.tsx"
         }
       ]
     },
@@ -752,7 +752,7 @@
         {
           "path": "registry/domino/ui/popover.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/popover.tsx"
         }
       ]
     },
@@ -766,7 +766,7 @@
         {
           "path": "registry/domino/ui/progress.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/progress.tsx"
         }
       ]
     },
@@ -780,7 +780,7 @@
         {
           "path": "registry/domino/ui/radio-group.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/radio-group.tsx"
         }
       ]
     },
@@ -794,7 +794,7 @@
         {
           "path": "registry/domino/ui/resizable.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/resizable.tsx"
         }
       ]
     },
@@ -808,7 +808,7 @@
         {
           "path": "registry/domino/ui/scroll-area.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/scroll-area.tsx"
         }
       ]
     },
@@ -822,7 +822,7 @@
         {
           "path": "registry/domino/ui/select.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/select.tsx"
         }
       ]
     },
@@ -836,7 +836,7 @@
         {
           "path": "registry/domino/ui/separator.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/separator.tsx"
         }
       ]
     },
@@ -850,7 +850,7 @@
         {
           "path": "registry/domino/ui/sheet.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/sheet.tsx"
         }
       ]
     },
@@ -877,7 +877,7 @@
         {
           "path": "registry/domino/ui/sidebar.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/sidebar.tsx"
         }
       ]
     },
@@ -901,7 +901,7 @@
         {
           "path": "registry/domino/ui/skeleton.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/skeleton.tsx"
         }
       ]
     },
@@ -915,7 +915,7 @@
         {
           "path": "registry/domino/ui/slider.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/slider.tsx"
         }
       ]
     },
@@ -929,7 +929,7 @@
         {
           "path": "registry/domino/ui/sonner.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/sonner.tsx"
         }
       ]
     },
@@ -943,7 +943,7 @@
         {
           "path": "registry/domino/ui/switch.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/switch.tsx"
         }
       ]
     },
@@ -956,7 +956,7 @@
         {
           "path": "registry/domino/ui/table.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/table.tsx"
         }
       ]
     },
@@ -970,7 +970,7 @@
         {
           "path": "registry/domino/ui/tabs.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/tabs.tsx"
         }
       ]
     },
@@ -983,7 +983,7 @@
         {
           "path": "registry/domino/ui/textarea.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/textarea.tsx"
         }
       ]
     },
@@ -997,7 +997,7 @@
         {
           "path": "registry/domino/ui/toggle.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/toggle.tsx"
         }
       ]
     },
@@ -1014,7 +1014,7 @@
         {
           "path": "registry/domino/ui/toggle-group.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/toggle-group.tsx"
         }
       ]
     },
@@ -1028,7 +1028,7 @@
         {
           "path": "registry/domino/ui/tooltip.tsx",
           "type": "registry:ui",
-          "target": "/components/ui"
+          "target": "/components/ui/tooltip.tsx"
         }
       ]
     }
